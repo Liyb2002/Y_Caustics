@@ -1,0 +1,28 @@
+<scenefile>
+	<cameradata>
+		<pos x="0" y="1" z="3.6"/>
+		<up x="0" y="1" z="0"/>
+		<focus x="0" y="1" z="0"/>
+		<heightangle v="45"/>
+	</cameradata>
+
+	<object type="tree" name="root">
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+                        <rotate x="0" y="0" z="1" angle="0"/>
+			<object type="primitive" name="mesh" filename="models/Caustics/cornellbox/ball-cornellbox-2">
+			</object>
+		</transblock>
+	</object>
+
+	<stylized>
+		<parameters>
+			<image filename ="example-scenes/images/frog.png"/>
+			<size x="1" y="1"/>
+			<center x="0" y="0" z="3"/>
+			<normal x="0" y="1" z="0"/>
+		</parameters>
+	</stylized>
+
+
+</scenefile>
